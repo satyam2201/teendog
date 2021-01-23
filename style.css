@@ -1,0 +1,164 @@
+.body{
+    /* font-family: 'Montserrat', sans-serif; */
+}
+#title{
+    background-color: #ff4c68;
+    margin-bottom: 0;
+  
+  
+}
+h1{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+   
+}
+
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;  
+
+}
+.navbar{ 
+    padding: 0 0 4rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.Download-btn{
+    margin: 5% 3% 5% 0;
+}
+.iphone{
+    width: 60%;
+    transform: rotate(28deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+#features{
+    background-color: rgb(255, 255, 255);
+    padding: 7% 15% ;
+    position: relative;
+    /* z-index: 1; */
+   
+    
+}
+.features-box{
+    font-family:initial;
+    text-align: center;
+    padding: 3%;
+}
+h3{ font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color:#8f8f8f;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.features-icon{
+    color: #ef8172;
+    margin-bottom: 1.4rem;
+}
+.features-icon:hover{ color: #ff4c68;
+}
+
+                                                                   /* testimonial */
+
+#testimonials{
+
+text-align: center;
+background-color: #ef8172;
+}
+h2{
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #fff;
+    line-height: 1.5;
+    font-size: 3rem
+}
+
+.testimonials-img{
+  width: 12%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 0%;
+}
+.press-img{
+    padding: 0 10px 40px;
+    width: 15%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+   margin: 7% 15%;
+}
+.price-table{
+    padding: 3% 2%;
+}
+.card{
+  
+    text-align: center;
+   
+}
+.price-heading{
+    color: rgb(17, 15, 15);
+    text-align: center;
+    font-family: "Montserrat-Bold";
+}
+.indexing{
+   
+}
+
+/* media query */
+
+@media (max-width:1050px)
+{
+    .iphone{
+        position: static;
+        transform: rotate(0);
+        
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+}
+.cta-text{
+    font-size: 3rem;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Montserrat', sans-serif; 
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.copyright{
+    margin-top:1%;
+}
+.footer-icon{
+    margin-right: 2%;
+}
+.footer-icon:hover{
+    color: rgb(177, 177, 177);
+}
